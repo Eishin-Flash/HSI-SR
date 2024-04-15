@@ -57,4 +57,4 @@ python train_vqencoder_s1.py --batch_size 5
 
 实验的epoch设置为300，按MST++原项目的逻辑，一个epoch的iter是手动设定的，此处设定为10000，实际上相当于跑了大约1.5 * batchsize * num_gpu个epoch
 
-数据集的链接在HSI中的Readme文件内
+数据集的链接在HSI-SR中的Readme文件内
